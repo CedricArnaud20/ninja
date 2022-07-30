@@ -8,21 +8,38 @@
 </head>
 <body>
 
-    <h1>Olá, <span id="nome"></span>  </h1>
-    
+    <!-- <h1>Olá, <span id="nome"></span>  </h1> -->
+    <h1>CNH</h1>
 
+
+    <input name="nome" placeholder="First name">
+    <input name="idade" placeholder="years">
+    <button type="button" onclick="verificarIdade()">Verificar Idade</button>
 
     <script type="text/javascript">
-        var nome = prompt("Qual o seu nome?");
-        var Recebeidade = prompt("Informa sua idade");
 
-        var idade = parseInt(Recebeidade)
+
+        function verificarIdade() {
+
+            var nome = document.querySelector('input[name=nome]')
+            var iadade = document.querySelector('input[name=idade]')
+
+            console.log(nome.value)
+            console.log(iadade.value)
+
+
+        }
+
+        // var nome = prompt("Qual o seu nome?");
+        // var Recebeidade = prompt("Informa sua idade");
+
+        // var idade = parseInt(Recebeidade)
         
 
-        console.log(nome)
-        console.log(idade)
+        // console.log(nome)
+        // console.log(idade)
        
-        document.getElementById("nome").innerText = nome;
+        // document.getElementById("nome").innerText = nome;
     </script>
 </body>
 </html>
