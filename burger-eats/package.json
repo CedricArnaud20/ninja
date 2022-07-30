@@ -1,0 +1,15 @@
+{
+  "name": "burger-eats",
+  "version": "1.0.0",
+  "description": "Projeto de  teste aceitação do app Burger eats",
+  "main": "npx cypress open ",
+  "scripts": {
+    "test": "npx cypress open "
+  },
+  "author": "Cedric Arnaud",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^9.3.0",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
