@@ -13,21 +13,15 @@
 
 
     <script type="text/javascript">
-        var nome = "Cedric";
-        var idade = 21;
-        var ativo = true;
+        var nome = prompt("Qual o seu nome?");
+        var Recebeidade = prompt("Informa sua idade");
+
+        var idade = parseInt(Recebeidade)
+        
 
         console.log(nome)
         console.log(idade)
-        console.log(ativo)
-
-        console.log(typeof nome)
-        console.log(typeof idade)
-        console.log(typeof ativo)
-        
-
-        
-
+       
         document.getElementById("nome").innerText = nome;
     </script>
 </body>
