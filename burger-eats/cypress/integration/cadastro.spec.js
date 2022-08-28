@@ -2,6 +2,29 @@
 import SinupPage from '../pages/SignupPages'
 describe('Cadastro', ()=>{
 
+
+    // before(function() {
+
+    //     cy.log(' executar uma única vez antes de cadas caso de teste ') 
+
+    // })
+    // beforeEach(function() {
+
+    //     cy.log('executar uma sempres antes de cadas caso de teste') 
+
+    // })
+    // after(function() {
+
+    //     cy.log('executar uma única vez depois de cadas caso de teste') 
+
+    // })
+    // afterEach(function() {
+
+    //     cy.log('executar sempre depois de cadas caso de teste') 
+
+    // }) Ganchos
+
+
     it('seja um entregador', ()=>{
         var deliver = {
             name: 'James Rodriguez',
